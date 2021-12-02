@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Desktop/SMARTBox/jars/jfoenix-8.0.8.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Desktop/SMARTBox/jars/jaxrs-ri-2.29.1/jaxrs-ri/api/jakarta.ws.rs-api-2.1.6.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/SMARTBox/jars/jaxrs-ri-2.29.1/jaxrs-ri/ext/aopalliance-repackaged-2.6.1.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/SMARTBox/jars/jaxrs-ri-2.29.1/jaxrs-ri/ext/hk2-api-2.6.1.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/SMARTBox/jars/jaxrs-ri-2.29.1/jaxrs-ri/ext/hk2-locator-2.6.1.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/SMARTBox/jars/jaxrs-ri-2.29.1/jaxrs-ri/ext/hk2-utils-2.6.1.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/SMARTBox/jars/jaxrs-ri-2.29.1/jaxrs-ri/ext/jakarta.activation-api-1.2.1.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/SMARTBox/jars/jaxrs-ri-2.29.1/jaxrs-ri/ext/jakarta.annotation-api-1.3.5.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/SMARTBox/jars/jaxrs-ri-2.29.1/jaxrs-ri/ext/jakarta.inject-2.6.1.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/SMARTBox/jars/jaxrs-ri-2.29.1/jaxrs-ri/ext/jakarta.json-1.1.5.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/SMARTBox/jars/jaxrs-ri-2.29.1/jaxrs-ri/ext/jakarta.json-api-1.1.5.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/SMARTBox/jars/jaxrs-ri-2.29.1/jaxrs-ri/ext/jakarta.json.bind-api-1.0.2.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/SMARTBox/jars/jaxrs-ri-2.29.1/jaxrs-ri/ext/jakarta.persistence-api-2.2.3.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/SMARTBox/jars/jaxrs-ri-2.29.1/jaxrs-ri/ext/jakarta.servlet-api-4.0.3.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/SMARTBox/jars/jaxrs-ri-2.29.1/jaxrs-ri/ext/jakarta.validation-api-2.0.2.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/SMARTBox/jars/jaxrs-ri-2.29.1/jaxrs-ri/ext/jakarta.xml.bind-api-2.3.2.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/SMARTBox/jars/jaxrs-ri-2.29.1/jaxrs-ri/ext/javassist-3.25.0-GA.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/SMARTBox/jars/jaxrs-ri-2.29.1/jaxrs-ri/ext/osgi-resource-locator-1.0.3.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/SMARTBox/jars/jaxrs-ri-2.29.1/jaxrs-ri/ext/yasson-1.0.3.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/SMARTBox/jars/jaxrs-ri-2.29.1/jaxrs-ri/lib/jersey-client.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/SMARTBox/jars/jaxrs-ri-2.29.1/jaxrs-ri/lib/jersey-server.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/SMARTBox/jars/jaxrs-ri-2.29.1/jaxrs-ri/lib/jersey-media-sse.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/SMARTBox/jars/jaxrs-ri-2.29.1/jaxrs-ri/lib/jersey-media-json-binding.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/SMARTBox/jars/jaxrs-ri-2.29.1/jaxrs-ri/lib/jersey-media-jaxb.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/SMARTBox/jars/jaxrs-ri-2.29.1/jaxrs-ri/lib/jersey-hk2.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/SMARTBox/jars/jaxrs-ri-2.29.1/jaxrs-ri/lib/jersey-container-servlet-core.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/SMARTBox/jars/jaxrs-ri-2.29.1/jaxrs-ri/lib/jersey-container-servlet.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/SMARTBox/jars/jaxrs-ri-2.29.1/jaxrs-ri/lib/jersey-common.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/SMARTBox/jars/jaxrs-ri-2.29.1/jaxrs-ri/ext/org.osgi.core-6.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Desktop/SMARTBox/jars/jaxrs-ri-2.29.1/jaxrs-ri/ext/jakarta.ws.rs-api-2.1.6-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/SMARTBox/jars/jaxrs-ri-2.29.1/jaxrs-ri/ext/org.osgi.core-6.0.0.jar!/OSGI-OPT/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
