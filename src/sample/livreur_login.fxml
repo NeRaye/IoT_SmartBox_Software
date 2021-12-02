@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="550.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LivreurLoginController">
+    <children>
+        <StackPane layoutX="184.0" layoutY="100.0" prefHeight="550.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <VBox prefHeight="200.0" prefWidth="100.0">
+                    <children>
+                        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #673695;" />
+                        <Pane prefHeight="351.0" prefWidth="800.0" style="-fx-background-color: #EDE7F6;" />
+                    </children>
+                </VBox>
+                <AnchorPane fx:id="anchorExt" prefHeight="486.0" prefWidth="800.0" style="-fx-background-color: transparent;">
+                    <children>
+                        <AnchorPane fx:id="anchorint" layoutX="166.0" layoutY="111.0" prefHeight="342.0" prefWidth="469.0">
+                            <style>-fx-background-color: WHITE; -fx-effect: dropshadow(gaussian, rgb(0.0, 0.0, 0.0,
+                                0.15), 6.0, 0.7, 0.0,1.5); -fx-background-radius: 4; -fx-border-radius: 4; -fx-padding:
+                                8;
+                            </style>
+                            <children>
+                                <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="185.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@User.png" />
+                                    </image>
+                                </ImageView>
+                                <JFXTextField fx:id="livreur_email" labelFloat="true" layoutX="75.0" layoutY="147.0" maxWidth="316.0" minWidth="233.0" prefHeight="31.0" prefWidth="316.0" promptText="Entrer votre email">
+                                    <font>
+                                        <Font name="Roboto Medium" size="14.0" />
+                                    </font>
+                                </JFXTextField>
+                                <JFXPasswordField fx:id="livreur_password" labelFloat="true" layoutX="75.0" layoutY="195.0" maxWidth="316.0" minWidth="235.0" prefHeight="31.0" prefWidth="316.0" promptText="Entrer le mot de passe">
+                                    <font>
+                                        <Font name="Roboto Medium" size="14.0" />
+                                    </font>
+                                </JFXPasswordField>
+                                <JFXButton fx:id="livreur_connecter" layoutX="146.0" layoutY="262.0" onAction="#login_btn" prefHeight="32.0" prefWidth="177.0" style="-fx-background-color: #673695;" text="Connecter" textFill="WHITE">
+                                    <font>
+                                        <Font name="Roboto Bold" size="14.0" />
+                                    </font>
+                                </JFXButton>
+                        <Label fx:id="lab" layoutX="14.0" layoutY="301.0" prefHeight="23.0" prefWidth="425.0" textFill="RED" />
+                            </children>
+                        </AnchorPane>
+                        <VBox layoutX="188.0" layoutY="24.0" />
+                        <Label fx:id="livreur_label" alignment="CENTER" layoutX="188.0" layoutY="61.0" prefHeight="34.0" prefWidth="425.0" text="Connectez à votre compte" textAlignment="CENTER" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="24.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="342.0" layoutY="505.0" text="\@Easy-Relay " />
+                        <Label layoutX="302.0" layoutY="522.0" text="Exigez une livraison de confiance" />
+                  <Hyperlink fx:id="livreur_retour" layoutX="21.0" layoutY="21.0" onAction="#back_btn" prefHeight="23.0" prefWidth="187.0" text="Retourner à la page précédente" textFill="WHITE" visited="true" />
+                    </children>
+                </AnchorPane>
+            </children>
+        </StackPane>
+    </children>
+</AnchorPane>

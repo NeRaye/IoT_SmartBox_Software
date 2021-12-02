@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="550.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LivreurPageController">
+    <children>
+        <StackPane layoutX="184.0" layoutY="100.0" prefHeight="550.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <VBox prefHeight="200.0" prefWidth="100.0">
+                    <children>
+                        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ab34eb;" />
+                        <Pane prefHeight="351.0" prefWidth="800.0" style="-fx-background-color: #EDE7F6;" />
+                    </children>
+                </VBox>
+                <AnchorPane prefHeight="486.0" prefWidth="800.0" style="-fx-background-color: transparent;">
+                    <children>
+                        <AnchorPane layoutX="16.0" layoutY="111.0" prefHeight="429.0" prefWidth="761.0">
+                            <style>-fx-background-color: WHITE; -fx-effect: dropshadow(gaussian, rgb(0.0, 0.0, 0.0,
+                                0.15), 6.0, 0.7, 0.0,1.5); -fx-background-radius: 4; -fx-border-radius: 4; -fx-padding:
+                                8;
+                            </style>
+                            <children>
+                                <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="341.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@User.png" />
+                                    </image>
+                                </ImageView>
+                                <VBox layoutX="4.0" layoutY="105.0" prefHeight="326.0" prefWidth="759.0">
+                                    <children>
+                                        <HBox prefHeight="29.0" prefWidth="759.0">
+                                            <children>
+                                                <Label fx:id="livreur_page_label1" prefHeight="28.0" prefWidth="388.0" text="Sélectionner un colis a deposé">
+                                                    <font>
+                                                        <Font name="System Bold" size="16.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label fx:id="livreur_page_label2" prefHeight="17.0" prefWidth="360.0" text="Sélectionner un colis a recuperé">
+                                                    <font>
+                                                        <Font name="System Bold" size="16.0" />
+                                                    </font>
+                                                </Label>
+                                            </children>
+                                        </HBox>
+                                        <HBox prefHeight="290.0" prefWidth="759.0">
+                                            <children>
+                                                <VBox prefHeight="304.0" prefWidth="438.0">
+                                                    <children>
+                                                        <ListView prefHeight="274.0" prefWidth="389.0">
+                                                            <items>
+                                                                <FXCollections fx:factory="observableArrayList">
+                                                                    <String fx:value="colis:54876592" />
+                                                                    <String fx:value="colis:54872154" />
+                                                                    <String fx:value="colis:65984521" />
+                                                                    <String fx:value="colis:12847594" />
+                                                                    <String fx:value="colis:68452178" />
+                                                                    <String fx:value="colis:36541287" />
+                                                                </FXCollections>
+
+                                                                                    </items>
+                                                        </ListView>
+                                                        <JFXButton fx:id="livreur_page_btn1" prefHeight="30.0" prefWidth="145.0" style="-fx-background-color: #ab34eb;" text="Deposer le colis" textFill="WHITE">
+                                                            <font>
+                                                                <Font name="Roboto Bold" size="14.0" />
+                                                            </font>
+                                                        </JFXButton>
+                                                    </children>
+                                                </VBox>
+                                                <VBox prefHeight="304.0" prefWidth="425.0">
+                                                    <children>
+                                                        <ListView prefHeight="274.0" prefWidth="389.0">
+                                                            <items>
+                                                                <FXCollections fx:factory="observableArrayList">
+                                                                    <String fx:value="colis:54876592" />
+                                                                    <String fx:value="colis:54872154" />
+                                                                    <String fx:value="colis:65984521" />
+                                                                    <String fx:value="colis:12847594" />
+                                                                    <String fx:value="colis:68452178" />
+                                                                    <String fx:value="colis:36541287" />
+                                                                </FXCollections>
+                                                            </items>
+                                                        </ListView>
+                                                        <JFXButton fx:id="livreur_page_btn2" prefHeight="30.0" prefWidth="145.0" style="-fx-background-color: #ab34eb;" text="Recuperer les colis" textFill="WHITE">
+                                                            <font>
+                                                                <Font name="Roboto Bold" size="14.0" />
+                                                            </font>
+                                                        </JFXButton>
+                                                    </children>
+                                                </VBox>
+                                            </children>
+                                        </HBox>
+                                    </children>
+                                </VBox>
+                            </children>
+                        </AnchorPane>
+                  <JFXButton fx:id="livreur_page_retour" onAction="#back_btn" style="&#10;                            " text="Retour" textFill="WHITE" underline="true">
+                     <font>
+                        <Font name="Roboto Medium" size="24.0" />
+                     </font>
+                  </JFXButton>
+                        <JFXComboBox fx:id="livreur_page_combobox" focusColor="#ab34eb" labelFloat="true" layoutX="648.0" layoutY="24.0" prefHeight="25.0" prefWidth="122.0" promptText="Francais" stylesheets="@style.css">
+                            <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="Francais" />
+                                    <String fx:value="العربية" />
+                                </FXCollections>
+                            </items>
+                        </JFXComboBox>
+                        <Label fx:id="livreur_page_label" alignment="CENTER" layoutX="188.0" layoutY="61.0" prefHeight="34.0" prefWidth="425.0" text="Déposer ou recupérer des colis" textAlignment="CENTER" textFill="WHITE">
+                            <font>
+                                <Font name="System Bold" size="24.0" />
+                            </font>
+                        </Label>
+                        <Label layoutX="342.0" layoutY="505.0" text="\@Easy-Relay " />
+                        <Label layoutX="302.0" layoutY="522.0" text="Exigez une livraison de confiance" />
+                    </children>
+                </AnchorPane>
+            </children>
+        </StackPane>
+    </children>
+</AnchorPane>
